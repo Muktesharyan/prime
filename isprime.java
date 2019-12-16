@@ -7,7 +7,7 @@ class isprime
 		int i;
 		if(n<=1) return false;
 		if(n<4) return true;
-		for(i=3;i<n;i=i+2)
+		for(i=3;i<Math.sqrt(n);i=i+2)
 		{
 			if(n%i==0)
 			{
